@@ -1,32 +1,27 @@
-# React + TypeScript + Vite
+# Sitech
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplicação institucional em React + TypeScript para a ETEC, com base visual responsiva e estrutura preparada para evolução incremental.
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- TypeScript
+- React
+- Vite
+- Vitest
+- Testing Library
+- SQLite (planejado para integração posterior)
 
-## React Compiler
+## Scripts
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `npm run dev` — inicia o ambiente de desenvolvimento
+- `npm run build` — gera a build de produção
+- `npm run lint` — valida qualidade do código
+- `npm run test` — executa a suíte de testes com Vitest
 
-## Expanding the Oxlint configuration
+## Validação
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+A base do projeto deve ser validada com testes automatizados para garantir estabilidade, especialmente em áreas de composição visual e conteúdo institucional.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## Objetivo da fase atual
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Preparar a fundação do site para cursos, notícias, comunicação institucional e expansão futura sem retrabalho.

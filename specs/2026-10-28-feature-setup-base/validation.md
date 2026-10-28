@@ -9,6 +9,7 @@
 - [x] Organização de arquivos e scripts adequada.
 - [x] Base pronta para integração com SQLite.
 - [x] Conteúdo inicial alinhado com a missão da escola.
+- [x] Estrutura de testes com Vitest configurada e validada.
 
 ## Evidências de sucesso
 
