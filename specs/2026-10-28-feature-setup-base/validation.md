@@ -2,13 +2,13 @@
 
 ## Checklist de execução
 
-- [ ] Ambiente do projeto inicializado.
-- [ ] TypeScript e React configurados corretamente.
-- [ ] Estrutura base de páginas e componentes criada.
-- [ ] Layout responsivo de apoio implementado.
-- [ ] Organização de arquivos e scripts adequada.
-- [ ] Base pronta para integração com SQLite.
-- [ ] Conteúdo inicial alinhado com a missão da escola.
+- [x] Ambiente do projeto inicializado.
+- [x] TypeScript e React configurados corretamente.
+- [x] Estrutura base de páginas e componentes criada.
+- [x] Layout responsivo de apoio implementado.
+- [x] Organização de arquivos e scripts adequada.
+- [x] Base pronta para integração com SQLite.
+- [x] Conteúdo inicial alinhado com a missão da escola.
 
 ## Evidências de sucesso
 
